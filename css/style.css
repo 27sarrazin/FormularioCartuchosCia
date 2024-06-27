@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#informacoes{
+    background-color: #673ab7;
+    border: 1px solid black;
+    height: 500px;
+    width: 300px;
+}
+.titulo, h2, h4, h6{
+    
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titulo{
+    padding: 30px;
+}
+h2, h4, h6{
+    padding: 20px;
+}
+
+.entrar{
+    box-shadow: #fff;
+}
+
+button {
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+}
+#formulario{
+    background-color: #8e8e8e;
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    
+}
+.titulo2{
+    padding-top:50px;
+}
+.preencher{
+    padding:10px;
+}
+
+label{
+    display: block;
+    padding: 10px;
+}
+
+.cadastrar{
+    display: block;
+    margin: 20px auto;
+    background-color: #673ab7;
+}
+
+#formulario .input-group .form-control.custom-input {
+    width: 1%;
+}
+
+
