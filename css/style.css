@@ -30,7 +30,9 @@
 h2, h4, h6{
     padding: 20px;
 }
-
+h1{
+    font-size: 30px;
+}
 
 .entrar:hover{
     background-color: #fff;
@@ -74,8 +76,12 @@ label{
 .cadastrar:hover{
     background-color: #7c49d3;
 }
-#formulario .input-group .form-control.custom-input {
-    width: 1%;
+#formulario{
+    border: 1px solid black;
+}
+#formulario .centralizarCampo{
+    max-width: 400px;
+    margin: auto;
 }
 
 
