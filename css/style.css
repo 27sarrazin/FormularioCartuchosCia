@@ -31,8 +31,13 @@ h2, h4, h6{
     padding: 20px;
 }
 
-.entrar{
-    box-shadow: #fff;
+
+.entrar:hover{
+    background-color: #fff;
+    color: #673ab7;
+}
+a{
+    text-decoration: none;
 }
 
 button {
@@ -64,8 +69,11 @@ label{
     display: block;
     margin: 20px auto;
     background-color: #673ab7;
+    
 }
-
+.cadastrar:hover{
+    background-color: #7c49d3;
+}
 #formulario .input-group .form-control.custom-input {
     width: 1%;
 }
