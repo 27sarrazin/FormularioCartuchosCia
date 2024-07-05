@@ -11,7 +11,7 @@
     }
 
     img{
-        border: 1px solid black;
+       
         padding-top: 15px;
     }
 }
@@ -21,4 +21,13 @@
         display: none;
     }
 }
-
+@media screen and (min-width:625px){
+    img{
+        display: none;
+    }
+}
+@media screen and (min-width:603px){
+    img{
+        display: none;
+    }
+}
